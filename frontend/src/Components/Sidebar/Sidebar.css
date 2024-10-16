@@ -1,0 +1,94 @@
+﻿.sidebar {
+    background: #fff;
+    width: 15%;
+    height: calc(100vh - 80px); 
+    top: 80px;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.side-link {
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%; 
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3 ease;
+}
+
+.sortcut-links h3 {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #424242;
+    padding-left: 8%;
+}
+
+.sortcut-links p {
+    margin-left: 8px;
+    font-size: 14px; 
+}
+
+.side-link:hover {
+    background-color: #eae6e6;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease; 
+}
+
+.side-link:hover p {
+    font-size: 14px; 
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 75%;
+}
+
+.subscribed-list h3 {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #424242;
+}
+
+.small-sidebar{
+    width: 4%;
+    margin-left: 10px;
+}
+
+.small-sidebar p {
+    display: none;
+}
+
+.small-sidebar h3 {
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+
+
+
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px; 
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
